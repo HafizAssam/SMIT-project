@@ -12,7 +12,9 @@ void main() {
     menu();
   } else if (userinput == "2") {
     feedback();
-  } else {}
+  } else {
+    print("Thank You");
+  }
 }
 
 List enterfeedback = [];
@@ -31,7 +33,7 @@ menu() {
   } else if (menuinput == "3") {
     Rolls();
   } else {
-    main();
+    menu();
   }
 }
 
